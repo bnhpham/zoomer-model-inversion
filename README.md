@@ -10,7 +10,7 @@ This repository demonstrates a reverse-engineering-assisted white-box model inve
 
 ## Competition Result
 
-We achieved the 3rd place out of 18 teams.
+We achieved the 3rd place out of 18 teams. Each team submitted 18 generated images, which were evaluated by computing the cosine similarity between their embeddings and those of the 18 authorized samples the model was fine-tuned on. Teams were permitted to resubmit as often as they wished throughout the competition.
 
 | Competitor | Cosine Similarity |
 |--------|-------------------|
@@ -53,7 +53,7 @@ Optimizing for class 0 produced images containing animal features (fur, eyes, fe
 ## Setup & Installation
  
 ```bash
-pip install torch torchvision numpy matplotlib
+pip install torch torchvision numpy tqdm
 ```
 
 ## References
