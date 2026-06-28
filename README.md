@@ -6,7 +6,7 @@ This repository demonstrates a reverse-engineering-assisted white-box model inve
 - **Reverse Engineering**: Extraction of the model weights and architecture from the binary. Static analysis using Ghidra was performed to write the extraction script.
 - **DeepInversion**: Reconstruction of training data from the extracted model by exploiting BatchNorm statistics.
 - **Adaptive DeepInversion**: Parallel training of a student model on synthesized images and computing competition loss between student and teacher to encourage broader coverage of the training data.
-- **Multi-Resolution Synthesis**: Acceleration of synthesis by optimizing the image at one-quarter of the resolution for the first 50% of iterations, then upscaling to full resolution..
+- **Multi-Resolution Synthesis**: Acceleration of synthesis by optimizing the image at one-quarter of the resolution for the first 50% of iterations, then upscaling to full resolution.
 
 ## Competition Result
 
